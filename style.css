@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Comic Sans MS', 'Chalkboard SE', 'Segoe UI', cursive, sans-serif;
+  background-color: #ffe6eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  padding: 40px 30px;
+  border-radius: 25px;
+  box-shadow: 0 10px 25px rgba(255, 105, 180, 0.2);
+  max-width: 450px;
+  width: 100%;
+  position: relative;
+}
+
+.gif {
+  width: 150px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+}
+
+h1 {
+  color: #ff4d6d;
+  font-size: 26px;
+  margin-bottom: 15px;
+}
+
+p {
+  color: #666;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 25px;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  min-height: 50px;
+}
+
+button {
+  padding: 12px 25px;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+.yes-btn {
+  background-color: #ff4d6d;
+  color: white;
+  box-shadow: 0 4px 10px rgba(255, 77, 109, 0.4);
+}
+
+.no-btn {
+  background-color: #ccc;
+  color: #333;
+  position: relative;
+}
+
+.hidden {
+  display: none;
+}
+
+.celebration h2 {
+  color: #ff4d6d;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
